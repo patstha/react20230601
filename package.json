@@ -29,6 +29,7 @@
   "scripts": {
     "start": "env-cmd -f ./src/environments/.env.dev react-scripts start",
     "start:prod": "env-cmd -f ./src/environments/.env.prod react-scripts start",
+    "build": "env-cmd -f ./src/environments/.env.dev react-scripts build",
     "build:prod": "env-cmd -f ./src/environments/.env.prod react-scripts build",
     "test": "jest --config jest.config.json --testResultsProcessor ./node_modules/jest-junit-reporter",
     "test:watch": "jest --config jest.config.json --watch",
