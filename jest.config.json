@@ -1,0 +1,11 @@
+{
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  "testRegex": "(/__tests__/.*[.](test|spec))\\.(ts|tsx|js)$",
+  "collectCoverage": true,
+  "coverageReporters": ["cobertura", "html", "text"],
+  "reporters": ["default"],
+  "coverageDirectory": "./coverage",
+  "testEnvironment": "jsdom"
+}
